@@ -8,9 +8,9 @@ public class threadsample extends Thread{
         System.out.println("hi "+name);
     }
     public static void main(String[] args) {
-        threadsample obj=new threadsample("madhu");
-        threadsample obj1=new threadsample("king");
-        threadsample obj2=new threadsample("yash");
+        threadsample obj=new threadsample("kohli");
+        threadsample obj1=new threadsample("dhoni");
+        threadsample obj2=new threadsample("rohit");
         obj.start();
         obj1.start();
         obj2.start();
